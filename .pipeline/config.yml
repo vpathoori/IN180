@@ -1,0 +1,13 @@
+steps:
+  integrationArtifactDeploy:
+    cpiApiServiceKeyCredentialsId: https://teched-eu02.integrationsuite.cfapps.eu10-003.hana.ondemand.com
+    integrationFlowId: I562983-flow4
+  integrationArtifactGetMplStatus:
+    cpiApiServiceKeyCredentialsId: https://teched-eu02.integrationsuite.cfapps.eu10-003.hana.ondemand.com
+    integrationFlowId: I562983-flow4
+  integrationArtifactUpload:
+    cpiApiServiceKeyCredentialsId: https://teched-eu02.integrationsuite.cfapps.eu10-003.hana.ondemand.com
+    integrationFlowId: I562983-flow4
+    integrationFlowName: I562983-flow4
+    packageId: CICD
+    filePath: I562983-flow4.zip
